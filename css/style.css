@@ -309,6 +309,19 @@ button:hover, .button:hover {
 		justify-content: flex-start;
 	}
 }
+
+@media only print {
+	html, body, .container, article {
+		height: auto !important;
+		max-width: none !important;
+		background: none !important;
+		color: black !important;
+	}
+	#rp, #journal {
+		display: none;
+	}
+}
+
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
