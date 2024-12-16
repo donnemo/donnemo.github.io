@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- ⏏ -->
+
+<!-- ✎ -->
+<title>Pasta | GeekyMuse: Andrew Paulson</title>
+<meta name="description" content="GeekyMuse: pasta recipes." />
+<meta name="keywords" content="geek, geeky, developer, designer, illustrator, artist, front-end" />
+<meta name="mySite" content="GeekyMuse" />
+<meta name="PHP_SELF" content="/index.php" />
+<meta name="SERVER_NAME" content="GeekyMuse" />
+<meta name="HTTP_HOST" content="GeekyMuse" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="flex.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+		<div id="rp" class="container">
+		  <article>
+		    <div class="avatar">
+		      <a href="https://codepen.io/apaulson">
+		        <img src="/images/about.png" alt="Andrew Paulson" />
+		      </a>
+		    </div>
+		    <div class="content">
+		      <h1>Geeky Muse: Pasta Recipes</h1>
+		      <p class="nomargin">Andrew Paulson</p>
+		      <?php include("andrew-social.php"); ?>
+		    </div>
+		  </article>
+		</div>
+	<article id="recipe">
+		<div class="content text-left">
+			<h2>Farfalle con salmone (butterfly pasta with salmon)</h2>
+			<p>Serves 3-4</p>
+			<h3>Ingredients</h3>
+			<ul>
+				<li>1 medium onion, sliced</li>
+				<li>3 large garlic cloves, diced</li>
+				<li>400g Farfalle pasta (or other)</li>
+				<li>100g smoked salmon, cut into small pieces</li>
+				<li>100g butter (3/4 to 1 stick)</li>
+				<li>8 oz. dry white wine</li>
+				<li>2 packages of <a href="#panna">panna</a> (cooking cream) [substitute 2 cups heavy cream]</li>
+				<li>75g Parmesan cheese, grated (about 1/2 cup)</li>
+				<li>6 stalks of Italian arseley chopped</li>
+				<li>1/4 tsp nutmeg</li>
+				<li>Crushed red pepper to taste</li>
+				<li>Salt to taste</li>
+			</ul>
+			<h3>Directions</h3>
+			<p>Place butter, onion, garlic, and wine in large pot and cook, covered, for 20 minutes on low heat. Remove cover and cook until wine evaporates. Add cream, cheese, nutmeg, and red pepper. Stir together. Add salmon and parsley. Cover and cook until salmon is heated through. Meanwhile, cook and drain pasta. Add drained pasta directly to pot and mix together. Plate and Enjoy!</p>
+
+			<h2>Linguine con zucchine</h2>
+			<p>Serves 3-4</p>
+			<h3>Ingredients</h3>
+			<ul>
+				<li>400g linguine or sphagetti</li>
+				<li>5 medium zucchini, sliced into rounds</li>
+				<li>1/2 cup olive oil</li>
+				<li>1 medium onion</li>
+				<li>4 cloves garlic, minced</li>
+				<li>1 and 1/2 packages of <a href="#panna">panna</a> (sub 1 and 1/2 cup heavy cream)</li>
+				<li>Salt and pepper, dash</li>
+				<li>5 Tbsp. Parmesan cheese, grated</li>
+				<li>6 basil leaves cut or ripped into small pieces</li>
+			</ul>
+
+			<p>In a saucepan, add oil, zucchini, onion, garlic, salt and pepper. Fry slowly over medium heat until zucchini browns. Meanwhile, cook pasta. Combine cream, cheese, and basil and stir into cooked zucchini. Add cooked pasta, toss, and serve.</p>
+
+			<h2>Penne al Quattro Formaggi (pasta with four cheeses)</h2>
+			<p>Serves 3-4</p>
+			<h3>Ingredients</h3>
+			<ul>
+				<li>400g penne</li>
+				<li>50g Swiss cheese, cut into small pieces</li>
+				<li>50g Fontina cheese, cut into small pieces</li>
+				<li>50g Gouda cheese, cut into small pieces</li>
+				<li>50g Parmesan cheese, grated</li>
+				<li>2 packages of <a href="#panna">panna</a> (cooking cream) [substitute 2 cups heavy cream]</li>
+				<li>100g butter (1 stick), cut into small pieces</li>
+				<li>Pepper, to taste</li>
+			</ul>
+
+			<p>Mix all ingredients but pasta in large, heat-proof serving bowl. Boil pasta and drain. Place serving bowl with ingredients on top of hot pasta water to slowly melt cheese. Slowly stir until sauce comes together. Add cooked pasta to cheese mixture and stir until evenly coated. Serve and enjoy!</p>
+
+			<details id="panna">
+				<summary>Panna da cucina</summary>
+				<p>An item uncommon to the American pantry but an Italian staple is panna da cucina. The word simply means "cream" in Italian. You may recognize it from the popular dessert panna cotta, which literally means "cooked cream." But this Italian cream is not equivalent to our creams, either light or heavy. Panna da cucina is thicker than our heavy cream, with a consistency between that of heavy cream and sour cream. If you're looking to substitute heavy (or light) cream in these recipes. You may want to heat the creams separately and reduce with a little added starch to thicken.</p>
+			</details>
+
+		</div>
+	</article>
+
+	<?php include("journal-toc.php"); ?>
+</body>
+</html>

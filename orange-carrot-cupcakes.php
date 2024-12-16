@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- ⏏ -->
+
+<!-- ✎ -->
+<title>Orange Carrot Cupcakes | GeekyMuse: Andrew Paulson</title>
+<meta name="description" content="GeekyMuse: a recipe for orange carrot cupcakes." />
+<meta name="keywords" content="geek, geeky, developer, designer, illustrator, artist, front-end" />
+<meta name="mySite" content="GeekyMuse" />
+<meta name="PHP_SELF" content="/index.php" />
+<meta name="SERVER_NAME" content="GeekyMuse" />
+<meta name="HTTP_HOST" content="GeekyMuse" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="flex.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+		<div id="rp" class="container">
+		  <article>
+		    <div class="avatar">
+		      <a href="https://codepen.io/apaulson">
+		        <img src="/images/about.png" alt="Andrew Paulson" />
+		      </a>
+		    </div>
+		    <div class="content">
+		      <h1>Geeky Muse: Orange Carrot Cupcakes</h1>
+		      <p class="nomargin">Andrew Paulson</p>
+		      <?php include("andrew-social.php"); ?>
+		    </div>
+		  </article>
+		</div>
+	<article id="recipe">
+
+		<div class="content text-left">
+			<p>Carrot cakes have been a favorite dessert in American baking for years. These cupcakes adds a slight twist with a hint of orange from the  juice and peel that is infused into the carrots themselves. The orange,  vanilla, and lavender cream cheese frosting tops it all off.</p>
+
+			<h2>Ingredients</h2>
+
+			<h3>For the Cupcakes:</h3>
+
+			<ul><li>1 1/2 cups all-purpose flour</li><li>1 teaspoon baking powder</li><li>1/4 teaspoon baking soda</li><li>3/4 teaspoon salt</li><li>1/4 teaspoon ground cinnamon</li><li>1/4 teaspoon ground ginger</li><li>1/4 teaspoon grated nutmeg</li><li>1/2 teaspoon allspice</li><li>3/4 cup (1 1/2 sticks) unsalted butter, melted</li><li>1/2 cup packed light-brown sugar</li><li>1/2 cup sugar</li><li>2 large eggs</li><li>3 tablespoons plain low-fat yogurt</li><li>1/4 teaspoon pure vanilla extract</li><li>1 1/2 cups grated carrots (from about 4 medium carrots)</li><li>1 orange, zested</li></ul>
+
+			<h3>For the Frosting:</h3>
+
+			<ul><li>1 package (8 ounces) cream cheese, room temperature</li><li>1/4 cup (1/2 stick) unsalted butter, room temperature</li><li>3-4 cups confectioners’ sugar</li><li>1 1/2 teaspoons pure vanilla extract</li><li>1 orange, zested</li><li>1 tablespoon lavender syrup (if desired)</li></ul>
+
+			<h2>Directions</h2>
+
+			<ol><li>Grate carrots and combine with zest of 1 orange in saucepan. Squeeze
+			 juice from orange over carrots. Saute over medium-low heat until liquid
+			 is mostly gone.</li><li>Preheat oven to 375 degrees. Line a 12-cup standard muffin tin with paper liners.</li><li>Whisk together flour, baking powder, baking soda, salt, cinnamon, ginger, nutmeg, and allspice in bowl.</li><li>Whisk together butter, eggs, brown sugar, sugar, yogurt, and vanilla
+			 in a large bowl, then stir in flour mixture until just combined. Stir
+			in carrots.</li><li>Divide batter among muffin tin. Bake 20 to 25 minutes, rotating pan
+			halfway through until a toothpick inserted in the center of a cupcake
+			comes out clean.</li><li>Remove from pan to a wire rack to cool completely before frosting.</li><li>To frost: Using an electric mixer, beat cream cheese, butter, and
+			confectioners’ sugar until smooth; beat in vanilla, orange zest, juice
+			from orange, and lavender.</li>
+			</ol>
+		</div>
+	</article>
+
+	<?php include("journal-toc.php"); ?>
+</body>
+</html>

@@ -1,0 +1,325 @@
+/* Reset & defaults */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body {
+	color: #000;
+	line-height: normal;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	vertical-align: baseline;
+	height: 100vh;
+	overflow: auto;
+	font-family: 'Titillium Web', 'Helvetica', sans-serif;
+	background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgba(162, 210, 75, 1) 0%, rgba(25, 176, 156, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(162, 210, 75, 1) 0%, rgba(25, 176, 156, 1)100%);
+	background: linear-gradient(135deg, rgba(162, 210, 75, 1) 0%, rgba(25, 176, 156, 1) 100%);
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p {
+ margin: 16px 0;
+}
+
+/*! --------------- Headings --------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1.125;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1rem;
+} /* 1em */
+
+p, ul, ol {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+}
+ul, ol {
+	margin-left: 2rem;
+}
+ul.flex {
+	list-style: none;
+}
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+	margin-bottom: 2rem;
+}
+article {
+  position: relative;
+  width: 100%;
+	max-width: 600px;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+	color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 1rem;
+	margin: 0 auto;
+}
+.container article {
+	padding-top: 2rem;
+}
+article[id] {
+	margin-bottom: 2rem;
+}
+article[id="recipe"] {
+	padding-top: 2rem;
+}
+#rp {
+	height: auto;
+}
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+  background-color: #fff;
+}
+.avatar img {
+  width: 120%; height: auto;
+}
+.avatar:hover {
+  border: 5px #EAFBCA solid;
+  backdrop-filter: saturate(200%);
+  -webkit-backdrop-filter: saturate(200%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.content {
+	width: 100%;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.intro {
+	margin-bottom: 2rem;
+}
+span a {
+	font-size: 1.25rem;
+	color: #EAFBCA;
+	text-decoration: none;
+	margin: 0 1rem;
+}
+span a:hover {
+	color: #fff;
+}
+span a:hover i {
+	color: #fff;
+  transform: scale(1.5);
+}
+
+.nomargin {
+	margin: 0;
+}
+.text-left {
+	text-align: left;
+}
+/* Default Button Style Resets */
+button, .button, input[type=submit], input[type=reset], input[type="button"] {
+	position: relative;
+	display: inline-block;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 700;
+	font-variant: normal;
+	line-height: 1.5;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin: 0;
+	margin-bottom: 1rem;
+	padding: 0.75rem 1.5rem;
+	min-width: 150px;
+	max-width: 100%;
+	border-width: 2px;
+	border-style: solid;
+	white-space: normal;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+button, input[type=submit], input[type=reset], input[type="button"] {
+	-webkit-appearance: button;
+}
+
+button:hover, .button:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+/* cta style */
+.button.cta, button.cta {
+	color: #000;
+	background-color: #C4F36B;
+	border: none;
+	padding: calc(0.75rem + 4px) calc(1.5rem + 4px);
+}
+.button.cta:hover, button.cta:hover {
+	background-color: #058E80;
+	color: #fff;
+}
+.button.cta.invert:hover, button.cta.invert:hover {
+	background-color: #fff;
+}
+.button.cta.invert:hover, button.cta.invert:hover {
+	color: #000;
+}
+
+.button.cta::before, .button.cta::after {
+	background: #fff;
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.5s linear;
+}
+.button.cta span::before, .button.cta span::after{
+	background: #fff;
+  content:"";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.5s linear;
+}
+
+.button.cta:hover::before, .button.cta:hover::after {
+  width: 100%;
+}
+.button.cta:hover span::before, .button.cta:hover span::after {
+  height: 100%;
+}
+.cta::before, .cta::after{
+  transition-delay: 0.2s;
+}
+.cta span::before, .cta span::after{
+  transition-delay: 0s;
+}
+.cta::before{
+  right: 0;
+  top: 0;
+}
+.cta::after{
+  left: 0;
+  bottom: 0;
+}
+.cta span::before{
+  left: 0;
+  top: 0;
+}
+.cta span::after{
+  right: 0;
+  bottom: 0;
+}
+.cta:hover::before, .cta:hover::after{
+  transition-delay: 0s;
+}
+.cta:hover span::before, .cta:hover span::after{
+  transition-delay: 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.3rem;
+	}
+	h4 {
+		font-size: 1.2rem;
+	}
+	h5 {
+		font-size: 1.1rem;
+	}
+	h6 {
+		font-size: 1rem;
+	} /* 1em */
+	.container {
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.container {
+		justify-content: center;
+	}
+	#rp {
+		justify-content: flex-start;
+	}
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
